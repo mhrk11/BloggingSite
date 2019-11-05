@@ -1,0 +1,78 @@
+section article,section aside{
+  float:left;
+
+}
+section article{
+  width: 50%;
+  background-color: #d2d2d2;
+  margin: 20px;
+  height: 500px;
+  padding: 20px;
+}
+section aside{
+  width: 20%;
+  background-color: #d2d2d2;
+  height: 400px;
+  margin-top: 20px;
+
+
+}
+
+section aside ul{
+  list-style-type: circle;
+  padding: 25px;
+
+  
+
+
+}
+section aside ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+
+  /* background-color: #a2a2a2; */
+  
+
+}
+
+section aside ul li a:hover{
+  color: #f1f1f1;
+  
+}
+section aside h2{
+  padding-left: 10px;
+  font-size: 30px;
+
+
+
+}
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px){
+   section aside{
+     display: none;
+
+   }
+   section article{
+     width: 100%;
+     margin:0;
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+
+
+   }
+
+  }
+  
